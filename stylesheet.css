@@ -1,0 +1,51 @@
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family:'Times New Roman', Times, serif
+}
+.background  {
+  background-image: url("wallpaper.jpg");
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100;
+}
+
+.tablink {
+  background-color: #f686c7;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  font-family: 'Times New Roman', Times, serif;
+  width: 20%;
+}
+
+.tablink:hover {
+  background-color: #cd3e86;
+}
+
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent2 {
+  color: black;
+}
+.tabcontent {
+  color: rgb(255, 255, 255);
+  padding: 100px 20px;
+  height: 100%;
+  position: center;
+  line-height: 1.6;
+}
+.center {
+  text-align: center;
+}
+
+.white {
+  background-color: #ffffff;
+}
